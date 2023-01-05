@@ -1,8 +1,11 @@
 {
+  "homepage": "https://Umair-Ali-01.github.io/News-Tech.github.io",
   "name": "create-react-app",
   "version": "5.0.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -12,6 +15,7 @@
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
     "@mui/material": "latest",
+    "gh-pages": "^4.0.0",
     "react": "latest",
     "react-dom": "latest",
     "react-scripts": "latest"
